@@ -1,0 +1,19 @@
+.navigation-link {
+  background-color: #F88C00;
+  opacity: 1;
+  position: absolute;
+  padding: 9px 11.1px;
+
+ a {
+  color: #FFF;
+  font-family: 'times';
+  font-size: 1.3rem;
+ }
+
+
+   @mixin atSmall {
+    opacity: 0;
+    z-index: -10;
+    position: relative;
+      }
+    }

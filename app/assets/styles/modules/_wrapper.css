@@ -1,0 +1,15 @@
+.wrapper {
+ padding-left: 18px;
+ padding-right: 18px;
+ max-width: 1236px;
+ margin-left: auto;
+ margin-right: auto;
+
+
+
+&--centered {
+ max-width: 900px;
+ margin-right: auto;
+ margin-left: auto;
+}
+}

@@ -1,0 +1,115 @@
+.large-hero {
+  position: relative;
+
+&__text-content {
+ font-family: Britannic bold;
+ margin-bottom: 2rem;
+}
+
+&__title {
+  color: #FFBF00;
+  font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 1.1;
+    text-align: center;
+    margin: 2rem 0 2.2rem 0;
+
+    @mixin atSmall {
+      font-size: 2rem;
+      text-align: left;
+      margin:  1rem 0 2.2rem 0;
+    }
+  }
+
+&__subtitle {
+  color: #FFBF00;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.65;
+  text-align: center;
+  margin: 0 0 2.2rem 0;
+
+  @mixin atSmall{
+    font-size: 1.6rem;
+    text-align: left;
+  }
+}
+
+&__description {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  color: #FFA500;
+
+  @mixin atSmall {
+    font-size: 1.3rem;
+    line-height: .5;
+    text-align: left;
+  }
+}
+
+&__description-2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  color: #FFA500;
+
+  @mixin atSmall {
+    font-size: 1.3rem;
+    line-height: .5;
+    text-align: left;
+  }
+}
+
+&__description-3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  color: #FFA500;
+
+  @mixin atSmall {
+    font-size: 1.3rem;
+    line-height: .5;
+    text-align: left;
+  }
+}
+
+&__description-4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: #FFA500;
+
+  @mixin atSmall {
+    font-size: 1.3rem;
+    line-height: .5;
+    text-align: left;
+}
+}
+
+&__description-5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  color: #FFA500;
+
+  @mixin atSmall {
+    font-size: 1.3rem;
+    line-height: .5;
+    text-align: left;
+}
+}
+&__description-6 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  color: #FFA500;
+
+
+  @mixin atSmall {
+   font-size: 1.3rem;
+    line-height: .1;
+    text-align: left;
+}
+}
+}

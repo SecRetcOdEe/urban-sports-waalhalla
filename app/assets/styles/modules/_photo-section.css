@@ -1,0 +1,11 @@
+.photo-section {
+  background-color: #2f5572;
+
+  &__image {
+    margin-bottom: .5rem;
+  }
+
+  &__image2 {
+    margin-bottom: 0;
+  }
+}

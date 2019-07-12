@@ -1,0 +1,14 @@
+.btn {
+  font-family: 'Baskerville';
+  font-size: 1rem;
+  background-color: #FF8C00;
+  color: #FFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  display:  inline-block;
+
+  @mixin atSmall{
+   font-size: 2rem;
+   padding: 25px 36px;
+}
+}

@@ -1,0 +1,21 @@
+.site-header {
+  padding: 10px 0;
+  position: relative;
+  opacity: 0;
+  z-index: -10;
+  background-color: rgba($mainOrange, .5);
+  width: 100%;
+
+  @mixin atSmall {
+    opacity: 1;
+    position: absolute;
+      z-index: 2;
+  }
+
+&__btn-container {
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+}

@@ -1,0 +1,13 @@
+.introduction-link {
+ border-bottom: 10px solid #2f5572;
+
+
+ &__image {
+   display: block;
+ }
+ &__text-content {
+   position: absolute;
+   top: 20%;
+   transform: translateY(-50%);
+ }
+}
